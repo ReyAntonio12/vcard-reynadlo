@@ -2,7 +2,7 @@
     margin: 0;
     padding: auto;
     box-sizing: border-box;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -29,6 +29,10 @@ img{
     margin: 0 auto;
 }
 
+#begining{
+    left: 100px;
+}
+
 #begining, .container{
     position: relative;
     width: 50%;
@@ -41,9 +45,16 @@ img{
     padding: 0.5%;
 }
 
+
 .footer{
    padding: 10px;
    background-color: rgb(209, 72, 182);
    width: 100%;
    border-radius: 4px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.footer:hover{
+    color: white;
 }
